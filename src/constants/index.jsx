@@ -2,7 +2,7 @@ import {
   FaXTwitter,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
+  FaWhatsapp ,
   FaDiscord,
   FaInstagram,
 } from "react-icons/fa6";
@@ -14,10 +14,13 @@ import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
+import { FaHtml5 } from "react-icons/fa6";
+import { FaCss3Alt } from "react-icons/fa6";
+import { RiJavascriptFill } from "react-icons/ri";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
@@ -31,7 +34,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "CARL FRANK",
+  name: "ARJUN GG",
   greet: "Hello there! 👋🏻",
   description:
     "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
@@ -89,96 +92,120 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "My name is Arjun G.G, and I am an aspiring web developer with a Bachelor of Technology in Information Technology from Ultra College of Engineering and Technology in Madurai. I have a CGPA of 7.85, which reflects my dedication and hard work throughout my academic career. I also hold a Diploma in Mechanical Engineering from NPR Polytechnic College, which has given me a solid foundation in technical principles and problem-solving skills.",
+  "During my academic journey, I have actively engaged in personal projects that have allowed me to apply my theoretical knowledge in practical settings. One of my notable projects is developing a deep learning model for detecting diseases in tea leaves using Python, Flask, and TensorFlow. Additionally, I created a Meeting Schedule web application using Next.js, Firebase, JavaScript, and TailwindCSS, showcasing my ability to build functional and user-friendly web applications.",
+  "I am proficient in various technical skills, including HTML, CSS, JavaScript, ReactJs, NextJs, and TailwindCSS. I am also familiar with tools and databases like Node.js, VScode, Git, GitHub, MongoDB, Firebase, and PostgreSQL. I am particularly interested in web development and front-end development, and I am always eager to learn new technologies and improve my skills. I believe my strong technical background, combined with my problem-solving abilities and adaptability, make me a strong candidate for this position.",
+
+
 ];
 
 export const SKILLS = [
   {
+    icon: <FaHtml5  className="text-4xl text-orange-600 lg:text-5xl" />,
+    name: "HTML5",
+    experience: "1+ years",
+  },
+  {
+    icon: <FaCss3Alt  className="text-4xl text-blue-600 lg:text-5xl" />,
+    name: "CSS3",
+    experience: "1+ years",
+  },
+  {
+    icon: <RiJavascriptFill className="text-4xl text-yellow-400 lg:text-5xl" />,
+    name: "JavaScript",
+    experience: "1+ years",
+  },
+  {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "2+ years",
+    experience: "1+ years",
   },
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
-    name: "Next.js",
+    name: "NextJs",
     experience: "1+ year",
   },
   {
-    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "MongoDB",
-    experience: "1.5+ years",
-  },
-  {
-    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Redis",
+    icon: <RiTailwindCssFill className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "TailwindCSS",
     experience: "1+ year",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "Node.js",
-    experience: "2+ years",
+    name: "NodeJs",
+    experience: "0.5+ years",
   },
   {
     icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
     name: "PostgreSQL",
-    experience: "1+ year",
+    experience: "+ year",
+  },
+  {
+    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "MongoDB",
+    experience: "0.5+ years",
   },
 ];
 
 export const EXPERIENCES = [
   {
-    title: "Lead Frontend Developer",
-    company: "Innovative Tech Solutions",
-    duration: "July 2020 - Present",
+    title: "Web development and designing",
+    company: "Oasis Infobyte Internship",
+    duration: "Feb - May 2024",
     description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
+      "This internship is observed by Oasis Infobyte as being a learning opportunity for you, spanning a duration of 1 month.. Proficient in designing, deploying, and managing fault-tolerant, highly available, and scalable Oasis Infobyte. In essence, your internship will embrace orientation and give emphasis on learning new skills with a deeper under standing of concepts through hands-on application of the knowledge you gained as an intern.",
   },
   {
-    title: "Frontend Engineer",
-    company: "Digital Creations",
-    duration: "February 2016 - June 2020",
+    title: "Web development",
+    company: "Bharat Intern Virtual Internship",
+    duration: "Jan - Feb 2024",
     description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
-  },
-  {
-    title: "Junior Web Developer",
-    company: "Bright Future Technologies",
-    duration: "August 2014 - January 2016",
-    description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+      "Full-Stack Exposure: Get hands-on experience in both front-end and back-end development. Real-world Projects: Work on projects that make a real impact and contribute to your professional portfolio.",
   },
 ];
 
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
+    degree: "Bachelor of Technology (Information Technology)",
+    institution: "Ultra College of Engineering and Technology, Madurai",
+    duration: "July 2021 - June 2024",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+      "A Bachelor of Technology in Information Technology (B.Tech IT) is a comprehensive undergraduate program that combines theoretical knowledge with practical skills to equip students for the dynamic field of IT. This program typically spans four years and covers a wide range of subjects, including programming, software development, database management, network security, and web technologies.",
   },
   {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
+    degree: "Diploma Mechanical Engineering",
+    institution: "NPR Polytechnic College, Dindigul",
+    duration: "july 2018 - June 2020",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "A Diploma in Mechanical Engineering is a technical education program designed to provide students with a strong foundation in the principles and practices of mechanical engineering. Typically spanning three years, this program equips students with the practical skills and theoretical knowledge needed to design, analyze, and maintain mechanical systems and machinery.",
+  },
+  {
+    degree: "+2 Computer Science Higher Secondary School",
+    institution: "Sourashtra Higher Secondary School",
+    duration: "June 2017 - june 2018",
+    description:
+      "Completing +2 Higher Secondary School with a focus on Computer Science equips students with foundational knowledge and skills in computing, programming, and information technology. This specialization prepares students for higher education in computer science and related fields or for entry-level positions in the IT industry.",
+  },
+  {
+    degree: "10th SSLC",
+    institution: "Balamandiram Higher Secondary School",
+    duration: "June 2015 - June 2016",
+    description:
+      "The 10th Standard Secondary School Leaving Certificate (SSLC) is a crucial milestone in a student's educational journey, typically marking the completion of secondary education. The SSLC is pivotal as it sets the foundation for higher secondary education and various career paths",
   },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
+    href: "https://wa.link/06atv0",
+    icon: <FaWhatsapp  fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://discord.com/channels/@me",
     icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/ns_boy_arjun/",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
@@ -186,11 +213,11 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/GGARJUN",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/arjun-2085-ganesh/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
