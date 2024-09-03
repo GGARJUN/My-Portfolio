@@ -18,7 +18,7 @@ const itemVariants = {
     opacity: 0, x: -20
   },
   visible: {
-    opacity: 1, x: 0, trasition: { duration:0.5 }
+    opacity: 1, x: 0, trasition: { duration:0.8 }
   },
 }
 
@@ -26,7 +26,11 @@ const Skills = () => {
 
   return (
     <div className="container mx-auto " id="skills">
-      <h2 className="mb-12 mt-20 text-center text-4xl font-semibold">Skills</h2>
+      <motion.h2 
+      initial={{ opacity: 0, y: -20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="mb-12 mt-20 text-center text-4xl font-semibold">Skills</motion.h2>
       <motion.div
       initial="hidden"
       whileInView="visible"

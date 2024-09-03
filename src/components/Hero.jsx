@@ -1,6 +1,8 @@
 import { HERO } from "../constants/index";
 import arjunImg from "../assets/arjun.jpg";
 import { motion } from "framer-motion";
+import { BorderBeam } from "@/components/magicui/border-beam.jsx";
+
 
 const Hero = () => {
   return (
@@ -34,8 +36,11 @@ const Hero = () => {
             alt="profile"
             width={550}
             height={550}
-            className="rounded-3xl"
+            className="rounded-3xl relative"
           />
+          <div className="absolute h-[478px]  rounded-3xl w-[482px]  ">
+            <BorderBeam size={250} duration={10} delay={20} />
+          </div>
         </div>
       </motion.div>
     </section>

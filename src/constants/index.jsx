@@ -7,8 +7,8 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
+import projectImage1 from "../assets/Project-1.jpeg";
+import projectImage2 from "../assets/Project-2.jpeg";
 import projectImage3 from "../assets/project3.jpeg";
 import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
@@ -25,11 +25,12 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
-  { label: "Projects", href: "#projects" },
   { label: "Bio", href: "#bio" },
-  { label: "Skills", href: "#skills" },
-  { label: "Work Experience", href: "#work" },
   { label: "Education", href: "#education" },
+  { label: "Projects", href: "#projects" },
+  { label: "Work Experience", href: "#work" },
+  { label: "Skills", href: "#skills" },
+  { label: "Certification", href: "#Certification" },
   { label: "Contact", href: "#contact" },
 ];
 

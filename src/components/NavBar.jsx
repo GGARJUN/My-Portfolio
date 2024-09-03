@@ -31,7 +31,7 @@ const NavBar = () => {
         <nav className="fixed left-0 right-0 top-4 z-50">
             {/* Desktop Menu */}
 
-            <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg border border-stone-50/30 bg-black/20 py-3 backdrop-blur-lg lg:flex">
+            <div className="mx-auto hidden max-w-[700px]  items-center justify-center rounded-lg border border-stone-50/30 bg-black/20 py-3 backdrop-blur-lg lg:flex">
                 <div className="flex justify-between items-center gap-6">
                     <div>
                         <a href="">
@@ -39,7 +39,7 @@ const NavBar = () => {
                         </a>
                     </div>
                     <div>
-                        <ul className="flex items-center gap-4">
+                        <ul className="flex items-center gap-4 ">
                             {NAVIGATION_LINKS.map((item,index) => (
                                 <li key={index}>
                                     <a href={item.href} onClick={(e) => handleLinkClick (e, item.href)} className="text-sm hover:text-yellow-400">
