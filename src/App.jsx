@@ -1,4 +1,5 @@
 import Bio from "./components/Bio";
+import Certification from "./components/Certification";
 import ContactForm from "./components/ContactForm";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
@@ -44,6 +45,7 @@ function App() {
           <Projects />
           <WorkExperience />
           <Skills />
+          <Certification/>
           <ContactForm />
           <Footer />
         </div>
