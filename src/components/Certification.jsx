@@ -1,15 +1,10 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { CERTIFICATION } from "../constants/index";
 
 const Certification = () => {
     const [selectedImage, setSelectedImage] = useState(null);
-    const images = [
-        { id: 1, src: "../src/assets/C1.png" },
-        { id: 2, src: "../src/assets/C2.png" },
-        { id: 3, src: "../src/assets/C3.jpeg" },
-        { id: 4, src: "../src/assets/C4.png" }
-      ];
-    
+
       const handleOpen = (image) => {
         setSelectedImage(image);
       };
@@ -28,7 +23,7 @@ const Certification = () => {
         Certification
       </motion.h2>
       <div className="grid sm:grid-cols-2 gap-4 pt-10">
-        {images.map((image) => (
+        {CERTIFICATION.map((image) => (
           <img
             key={image.id}
             src={image.src}

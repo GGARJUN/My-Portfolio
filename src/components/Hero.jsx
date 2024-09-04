@@ -1,7 +1,7 @@
 import { HERO } from "../constants/index";
 import arjunImg from "../assets/arjun.jpg";
 import { motion } from "framer-motion";
-import { BorderBeam } from "@/components/magicui/border-beam.jsx";
+
 
 
 const Hero = () => {

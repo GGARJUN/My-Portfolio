@@ -34,6 +34,13 @@ export const NAVIGATION_LINKS = [
   { label: "Contact", href: "#contact" },
 ];
 
+export const CERTIFICATION = [
+  { id: 1, src: "../src/assets/C1.png" },
+  { id: 2, src: "../src/assets/C2.png" },
+  { id: 3, src: "../src/assets/C3.jpeg" },
+  { id: 4, src: "../src/assets/C4.png" }
+]
+
 export const HERO = {
   name: "ARJUN GG",
   greet: "Hello there! 👋🏻",
