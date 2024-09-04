@@ -17,14 +17,20 @@ function App() {
     <>
       <div className="relative h-full overflow-y-auto antialiased">
         <div className="fixed inset-0 bg-fixed bg-cover bg-center bg-img h-screen ">
-          <Meteors number={30} className="h-screen" />
+          {/* <Meteors number={30} className="h-screen" />
           <div className="relative top-[50%]">
             <Meteors number={30} className="relative " />
-          </div>
-          <div className="relative  h-[500px] w-full ">
+          </div> */}
+          <div className="relative h-full w-full ">
             <Particles
               className="absolute inset-0"
-              quantity={200}
+              quantity={250}
+              ease={80}
+              refresh
+            />
+            <Particles
+              className="absolute inset-0 top-[50%]"
+              quantity={250}
               ease={80}
               refresh
             />

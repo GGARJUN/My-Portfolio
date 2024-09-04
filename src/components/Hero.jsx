@@ -36,11 +36,9 @@ const Hero = () => {
             alt="profile"
             width={550}
             height={550}
-            className="rounded-3xl relative"
+            className="rounded-3xl "
           />
-          <div className="absolute h-[478px]  rounded-3xl w-[482px]  ">
-            <BorderBeam size={250} duration={10} delay={20} />
-          </div>
+
         </div>
       </motion.div>
     </section>
