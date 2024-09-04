@@ -14,6 +14,12 @@ import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
+import C1 from "../assets/C1.png";
+import C2 from "../assets/C2.png";
+import C3 from "../assets/C3.jpeg";
+import C4 from "../assets/C4.png";
+
+
 import { FaHtml5 } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -35,10 +41,10 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const CERTIFICATION = [
-  { id: 1, src: "../src/assets/C1.png" },
-  { id: 2, src: "../src/assets/C2.png" },
-  { id: 3, src: "../src/assets/C3.jpeg" },
-  { id: 4, src: "../src/assets/C4.png" }
+  { id: 1, src: C1 },
+  { id: 2, src: C2 },
+  { id: 3, src: C3 },
+  { id: 4, src: C4 }
 ]
 
 export const HERO = {
