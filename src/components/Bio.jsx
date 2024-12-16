@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Bio = () => {
   return (
-    <section className="flex max-w-4xl flex-col gap-12 pt-20" id="bio">
+    <section className="flex  flex-col gap-12 pt-20" id="bio">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -24,7 +24,7 @@ const Bio = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: index*0.5}}
             key={index}
-            className="mb-4 text-lg lg:text-xl"
+            className="mb-4 text-lg lg:text-xl text-justify px-10"
           >
             {bio}
           </motion.p>

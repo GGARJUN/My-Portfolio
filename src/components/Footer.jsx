@@ -1,7 +1,16 @@
 import React from "react";
-import { SOCIAL_MEDIA_LINKS } from "../constants";
+import { FloatingDock } from "@/components/ui/floating-dock";
+import {
+  IconBrandGithub,
+  IconBrandX,
+  IconExchange,
+  IconHome,
+  IconNewSection,
+  IconTerminal2,
+} from "@tabler/icons-react";
 import logo from "../assets/logo.png";
 import { motion } from "framer-motion";
+import { links } from "../constants";
 
 const Footer = () => {
   return (
@@ -16,7 +25,7 @@ const Footer = () => {
           className="my-20"
         />
       </div>
-      <div className="flex items-center justify-center gap-8">
+      {/* <div className="flex items-center justify-center gap-8">
         {SOCIAL_MEDIA_LINKS.map((link, index) => (
           <motion.a
             initial={{ opacity: 0, y: -20 }}
@@ -30,7 +39,15 @@ const Footer = () => {
             {link.icon}
           </motion.a>
         ))}
-      </div>
+      </div> */}
+      <motion.div 
+
+      className="flex items-center justify-center w-full">
+        <FloatingDock
+          mobileClassName="translate-y-20" // only for demo, remove for production
+          items={links}
+        />
+      </motion.div>
       <p className="mt-8 text-center text-sm tracking-wide text-gray-400">
         &copy;compiletap. All right reserved.
       </p>

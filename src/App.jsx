@@ -6,23 +6,22 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 
+
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
-
-import Meteors from "@/components/magicui/meteors";
 import Particles from "@/components/magicui/particles";
 
 function App() {
   return (
     <>
       <div className="relative h-full overflow-y-auto antialiased">
-        <div className="fixed inset-0 bg-fixed bg-cover bg-center bg-img h-screen ">
+        <div className="fixed inset-0 h-screen bg-fixed bg-center bg-cover bg-img ">
           {/* <Meteors number={30} className="h-screen" />
           <div className="relative top-[50%]">
             <Meteors number={30} className="relative " />
           </div> */}
-          <div className="relative h-full w-full ">
+          <div className="relative w-full h-full ">
             <Particles
               className="absolute inset-0"
               quantity={250}
@@ -37,7 +36,7 @@ function App() {
             />
           </div>
         </div>
-        <div className="relative z-10 flex flex-col items-center p-4 space-y-8 container mx-auto">
+        <div className="container relative z-10 flex flex-col items-center p-4 mx-auto space-y-8">
           <Hero />
           <NavBar />
           <Bio />
@@ -48,6 +47,7 @@ function App() {
           <Certification/>
           <ContactForm />
           <Footer />
+
         </div>
       </div>
     </>

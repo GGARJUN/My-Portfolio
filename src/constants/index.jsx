@@ -51,7 +51,7 @@ export const HERO = {
   name: "ARJUN GG",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    " A passionate and detail-oriented web developer with a strong foundation in front-end technologies, including HTML, CSS, JavaScript, and modern frameworks like React.js. Skilled in building responsive, user-friendly websites with a focus on clean code and efficient performance. Proficient in utilizing tools like Tailwind CSS and Git for version control. Adept at collaborating with teams to deliver projects on time while continuously learning and adapting to new technologies. Looking to contribute to a dynamic team and further develop skills in full-stack development.",
 };
 
 export const PROJECTS = [
@@ -209,29 +209,78 @@ export const EDUCATION = [
   },
 ];
 
-export const SOCIAL_MEDIA_LINKS = [
+// export const SOCIAL_MEDIA_LINKS = [
+//   {
+//     href: "https://wa.link/06atv0",
+//     icon: <FaWhatsapp  fontSize={25} className="hover:opacity-80" />,
+//   },
+//   {
+//     href: "https://discord.com/channels/@me",
+//     icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
+//   },
+//   {
+//     href: "https://www.instagram.com/ns_boy_arjun/",
+//     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
+//   },
+//   {
+//     href: "https://x.com/",
+//     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
+//   },
+//   {
+//     href: "https://github.com/GGARJUN",
+//     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
+//   },
+//   {
+//     href: "https://www.linkedin.com/in/arjun-2085-ganesh/",
+//     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
+//   },
+// ];
+
+export const links = [
   {
+    title: "Whatsapp",
+    icon: (
+      <FaWhatsapp className="h-full w-full text-white" />
+    ),
     href: "https://wa.link/06atv0",
-    icon: <FaWhatsapp  fontSize={25} className="hover:opacity-80" />,
   },
+
   {
+    title: "Discord",
+    icon: (
+      <FaDiscord className="h-full w-full text-white" />
+    ),
     href: "https://discord.com/channels/@me",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
   },
   {
+    title: "Instagram",
+    icon: (
+      <FaInstagram className="h-full w-full text-white" />
+    ),
     href: "https://www.instagram.com/ns_boy_arjun/",
-    icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
+    title: "Twitter",
+    icon: (
+      <FaXTwitter className="h-full w-full text-white" />
+    ),
     href: "https://x.com/",
-    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
+
   {
+    title: "GitHub",
+    icon: (
+      <FaGithub className="h-full w-full text-white" />
+    ),
     href: "https://github.com/GGARJUN",
-    icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
+    title: "LinkedIn",
+    icon: (
+      <FaLinkedin className="h-full w-full text-white" />
+    ),
     href: "https://www.linkedin.com/in/arjun-2085-ganesh/",
-    icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
+
+
